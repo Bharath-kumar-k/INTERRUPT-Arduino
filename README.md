@@ -5,11 +5,10 @@ Simple Interrupt program using Arduino
 This programme simulate the Takeoff Abortion when one of the Engine fails  
 
 Introduction
-
-  *During takeoff if there is any technical faults or engine failure, the Pilot have to decide whether to takeoff or to abort the takeoff depending upon the decision speed
-  *Decision Speed is the speed beyond which takeoff should no-longer be aborted
-  *If the engine fails before the Decision Speed is reached, the takeoff can be aborted safely using Spoilers, hydraulic braking system and thrust reversal (If available) 
-  *If the engine fails after the Decision Speed the takeoff should not be aborted, because there would not be enough runway length for the declaration and leads to crash
+  * During takeoff if there is any technical faults or engine failure, the Pilot have to decide whether to takeoff or to abort the takeoff depending upon the decision speed
+  * Decision Speed is the speed beyond which takeoff should no-longer be aborted
+  * If the engine fails before the Decision Speed is reached, the takeoff can be aborted safely using Spoilers, hydraulic braking system and thrust reversal (If available) 
+  * If the engine fails after the Decision Speed the takeoff should not be aborted, because there would not be enough runway length for the declaration and leads to crash
 
 Procedure
   1. Before uploading the program into arduino board Connect pin2 and pin3 to the ground pin the arduino 
